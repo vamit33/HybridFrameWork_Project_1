@@ -2,20 +2,20 @@
 <testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1301" started-at="2022-07-03T06:49:22Z" finished-at="2022-07-03T06:49:23Z">
+  <suite name="Suite" duration-ms="1349" started-at="2022-07-04T07:15:24Z" finished-at="2022-07-04T07:15:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="1301" started-at="2022-07-03T06:49:22Z" finished-at="2022-07-03T06:49:23Z">
+    <test name="Test" duration-ms="1349" started-at="2022-07-04T07:15:24Z" finished-at="2022-07-04T07:15:25Z">
       <class name="Com.Test.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Com.Test.LoginTest@6156496]" name="setup" is-config="true" duration-ms="3490" started-at="2022-07-03T06:49:19Z" finished-at="2022-07-03T06:49:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Com.Test.LoginTest@6156496]" name="setup" is-config="true" duration-ms="3661" started-at="2022-07-04T07:15:20Z" finished-at="2022-07-04T07:15:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="failTest()[pri:0, instance:Com.Test.LoginTest@6156496]" name="failTest" duration-ms="32" started-at="2022-07-03T06:49:22Z" finished-at="2022-07-03T06:49:22Z">
+        <test-method status="PASS" signature="failTest()[pri:0, instance:Com.Test.LoginTest@6156496]" name="failTest" duration-ms="39" started-at="2022-07-04T07:15:24Z" finished-at="2022-07-04T07:15:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failTest -->
-        <test-method status="FAIL" signature="passTest()[pri:0, instance:Com.Test.LoginTest@6156496]" name="passTest" duration-ms="981" started-at="2022-07-03T06:49:22Z" finished-at="2022-07-03T06:49:23Z">
+        <test-method status="FAIL" signature="passTest()[pri:0, instance:Com.Test.LoginTest@6156496]" name="passTest" duration-ms="1032" started-at="2022-07-04T07:15:24Z" finished-at="2022-07-04T07:15:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [JavaByKiran | DashBoard] but found [JavaByKiran | Dashboard]]]>
@@ -64,7 +64,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passTest -->
-        <test-method status="SKIP" signature="skipTest()[pri:0, instance:Com.Test.LoginTest@6156496]" name="skipTest" duration-ms="1" started-at="2022-07-03T06:49:23Z" finished-at="2022-07-03T06:49:23Z">
+        <test-method status="SKIP" signature="skipTest()[pri:0, instance:Com.Test.LoginTest@6156496]" name="skipTest" duration-ms="0" started-at="2022-07-04T07:15:25Z" finished-at="2022-07-04T07:15:25Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping a Test case]]>
@@ -107,7 +107,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skipTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.Test.LoginTest@6156496]" name="tearDown" is-config="true" duration-ms="755" started-at="2022-07-03T06:49:23Z" finished-at="2022-07-03T06:49:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.Test.LoginTest@6156496]" name="tearDown" is-config="true" duration-ms="779" started-at="2022-07-04T07:15:25Z" finished-at="2022-07-04T07:15:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
